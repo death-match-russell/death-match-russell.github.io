@@ -2516,4 +2516,16 @@ header.masthead .post-heading .meta a { color: #fff; }
 
 @media only screen and (min-width: 768px) { .post-preview > a > .post-title { font-size: 36px; } }
 
+.affiliates { display: flex; flex-direction: row; justify-content: center; flex-wrap: wrap; gap: .4em; overflow: hidden; }
+
+.affiliates img, .affiliates > a { height: 5em; }
+
+body { background-color: black; color: white; }
+
+.post-preview > a { color: white; }
+
+body > header > div.container > div > div > div.page-heading { display: flex; flex-direction: column; margin-top: 500px; margin-bottom: 2em; padding: 0; }
+
+.page-border { position: fixed; top: 0; bottom: 0; left: 0; right: 0; border-width: 0 0 0 40px; border-style: solid; border-image: url("/assets/images/border-full.png") 250 repeat; pointer-events: none; }
+
 /*# sourceMappingURL=main.css.map */
