@@ -2528,6 +2528,10 @@ body { background-color: black; color: white; }
 
 body > header > div.container > div > div > div.page-heading { display: flex; flex-direction: column; margin-top: 500px; margin-bottom: 2em; padding: 0; }
 
-.page-border { position: fixed; top: 0; bottom: 0; left: 0; right: 0; border-width: 0 0 0 40px; border-style: solid; border-image: url("/assets/images/border-full.png") 250 repeat; pointer-events: none; }
+.page-border { position: fixed; top: 0; bottom: 0; left: 0; right: 0; border-width: 0 40px 0 40px; border-style: solid; border-image: url("/assets/images/border-full.png") 250 repeat; pointer-events: none; }
+
+div.photos { display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; gap: .25em; }
+
+div.photos > a { display: flex; height: 8em; }
 
 /*# sourceMappingURL=main.css.map */
